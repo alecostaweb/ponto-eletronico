@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "843bbee62ed0e18b41532c3d6d7f9d02",
+    "content-hash": "a62c3538cb5914014cf9613966749dd1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5865,6 +5865,56 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.4"
             },
             "time": "2021-12-08T09:12:39+00:00"
+        },
+        {
+            "name": "uspdev/laravel-usp-theme",
+            "version": "2.4.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uspdev/laravel-usp-theme.git",
+                "reference": "1ac15008ebb6ccab7d8ed05cc31cffeb0d28ddb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uspdev/laravel-usp-theme/zipball/1ac15008ebb6ccab7d8ed05cc31cffeb0d28ddb1",
+                "reference": "1ac15008ebb6ccab7d8ed05cc31cffeb0d28ddb1",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Uspdev\\UspTheme\\ServiceProvider"
+                    ],
+                    "aliases": {
+                        "UspTheme": "Uspdev\\UspTheme\\Facades\\UspTheme"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Uspdev\\UspTheme\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Thiago Gomes Verissimo",
+                    "email": "thiago.verissimo@usp.br"
+                }
+            ],
+            "description": "usp theme for laravel",
+            "support": {
+                "issues": "https://github.com/uspdev/laravel-usp-theme/issues",
+                "source": "https://github.com/uspdev/laravel-usp-theme/tree/2.4.6"
+            },
+            "time": "2022-03-20T17:07:50+00:00"
         },
         {
             "name": "uspdev/senhaunica-socialite",
